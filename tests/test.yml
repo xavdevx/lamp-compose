@@ -1,0 +1,5 @@
+---
+- hosts: ubuntu-xavier.local
+  remote_user: root
+  roles:
+    - lamp_compose
